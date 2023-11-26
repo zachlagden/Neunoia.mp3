@@ -10,7 +10,7 @@ import spotipy, json, os, glob, time, threading
 
 log = ColoredPrint()
 
-sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id="22884c0c84e748ef8d4913968f04736f", client_secret="f3d1f875ad3a479d80824d61ed231709"))
+sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id="client id", client_secret="client secret")) # set urs here
 
 def now():
     return datetime.now()
